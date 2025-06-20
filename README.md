@@ -33,6 +33,8 @@ functions in [./tests/adapters.py](./tests/adapters.py).
 ### Download data
 Download the TinyStories data and a subsample of OpenWebText
 
+**Note**: If you need to use a proxy due to network restrictions, you can add the proxy option to any `wget` command below by including `-e "https_proxy=http://your_proxy_address:port"` (replace with your actual proxy address and port).
+
 ``` sh
 mkdir -p data
 cd data
